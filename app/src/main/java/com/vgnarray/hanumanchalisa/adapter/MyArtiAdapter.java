@@ -39,22 +39,26 @@ public CharSequence getPageTitle(int position) {
 	// TODO Auto-generated method stub
 	
 	switch(position){
-	
-	case 0:
-		return "आरती";
+
+
+		case 0:
+			return "श्री हनुमान चालीसा ";
+		case 1:
+			return "संकटमोचन पाठ";
+
+		case 2:
+			return "सुन्दर काण्ड";
+
 		
-	case 1:
-		return "श्री हनुमान चालीसा ";
-		
-	case 2:
-		return "मंत्र";
 	case 3:
-		return "कथा";
+		return "मंत्र";
 	case 4:
-		return "सुन्दर काण्ड";
-	case 5:
-		return "संकटमोचन पाठ";
-		
+		return "कथा";
+
+
+		case 5:
+			return "आरती";
+
 	}
 	return super.getPageTitle(position);
 }

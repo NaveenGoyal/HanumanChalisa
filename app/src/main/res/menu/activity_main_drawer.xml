@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_1" android:icon="@android:drawable/ic_menu_camera"
+            android:title="श्री हनुमान चालीसा " />
+        <item android:id="@+id/nav_2" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="संकटमोचन पाठ" />
+        <item android:id="@+id/nav_3" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="सुन्दर काण्ड" />
+        <item android:id="@+id/nav_4" android:icon="@android:drawable/ic_menu_manage"
+            android:title="मंत्र" />
+        <item android:id="@+id/nav_5" android:icon="@android:drawable/ic_menu_manage"
+            android:title="कथा" />
+        <item android:id="@+id/nav_6" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="आरती" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_about_us" android:icon="@android:drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
