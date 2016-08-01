@@ -2,25 +2,50 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_1" android:icon="@android:drawable/ic_menu_camera"
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@mipmap/nav_icons"
             android:title="श्री हनुमान चालीसा " />
-        <item android:id="@+id/nav_2" android:icon="@android:drawable/ic_menu_gallery"
-            android:title="संकटमोचन पाठ" />
-        <item android:id="@+id/nav_3" android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="सुन्दर काण्ड" />
-        <item android:id="@+id/nav_4" android:icon="@android:drawable/ic_menu_manage"
-            android:title="मंत्र" />
-        <item android:id="@+id/nav_5" android:icon="@android:drawable/ic_menu_manage"
-            android:title="कथा" />
-        <item android:id="@+id/nav_6" android:icon="@android:drawable/ic_menu_slideshow"
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@mipmap/nav_icons"
             android:title="आरती" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@mipmap/nav_icons"
+            android:title="श्री बजरंग बाण" />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@mipmap/nav_icons"
+            android:title="संकटमोचन पाठ" />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@mipmap/nav_icons"
+            android:title="मंत्र" />
+        <item
+            android:id="@+id/nav_6"
+            android:icon="@mipmap/nav_icons"
+            android:title="कथा" />
+
     </group>
+    <item android:title="Sundar Kand">
+        <menu>
+            <item
+                android:id="@+id/nav_sunder_kand"
+                android:icon="@drawable/ic_action_sunder"
+                android:title="सुन्दर काण्ड" />
+        </menu>
+    </item>
 
     <item android:title="Communicate">
         <menu>
-            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
                 android:title="Share" />
-            <item android:id="@+id/nav_about_us" android:icon="@android:drawable/ic_menu_send"
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@android:drawable/ic_menu_send"
                 android:title="About Us" />
         </menu>
     </item>

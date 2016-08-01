@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/music_controller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fb_top_margin"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_songs_expand" />
+
+    <com.vgnarray.hanumanchalisa.CustomFab
+        android:id="@+id/fab_arti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab_main"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="@dimen/fb_top_margin"
+        android:src="@drawable/selector"
+        android:visibility="gone"
+        app:fabSize="mini" />
+
+
+    <com.vgnarray.hanumanchalisa.CustomFab
+        android:id="@+id/fab_chalisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab_arti"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/selector"
+        android:visibility="gone"
+        app:fabSize="mini" />
+
+    <ImageView
+        android:id="@+id/imgView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fab_arti"
+        android:layout_alignBottom="@+id/fab_arti"
+        android:layout_marginBottom="@dimen/fb_text_margin_bottom"
+        android:layout_marginRight="@dimen/fb_text_margin_right"
+        android:layout_toLeftOf="@+id/fab_arti"
+        android:background="@mipmap/aarti_text"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fab_chalisa"
+        android:layout_alignBottom="@+id/fab_chalisa"
+        android:layout_marginBottom="@dimen/fb_text_margin_bottom"
+        android:layout_marginRight="@dimen/fb_text_margin_right"
+        android:layout_toLeftOf="@+id/fab_chalisa"
+        android:background="@mipmap/chalisa_text"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
